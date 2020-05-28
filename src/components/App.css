@@ -1,0 +1,17 @@
+@import  'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+.header {background-color: #BF6B30; height: 15vh; }
+.rates {background-color: #29497F;}
+
+table {font-family: 'Baloo-2';}
+table td {border: solid grey 1px; padding-left: 1em; padding-right: 1em; }
+table thead {font-style: italic; }
+.clmn-1 {padding-right: 6em;}
+.fav, .base-active, .base-disable {cursor: pointer;}
+.fav img {width: 15%;}
+
+.base-active {background-color: green; }
+.base-disable {}
+.base-active, .base-disable {width: 50%;}
+.base-active img, .base-disable img {width: 50%;}
